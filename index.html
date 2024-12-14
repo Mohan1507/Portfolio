@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio web Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="./index.html" class="logo-holder">
+            <div class="logo">S</div>
+            <div class="logo-text">Portfolio Website</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./Skills.html">About me</a>
+                </li>
+                <li>
+                    <a href="./Projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="./Contact.html" class="button1">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                  </svg> 
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="about">
+            <div class="text">
+                <h1><small>Hi, I'm</small>
+                     Solanki Mohan Rao</h1>
+                <p>
+                    I am a passionate and dedicated software developer with a strong foundation in web development and programming languages. My skill set includes HTML, CSS, JavaScript,  Python, and SQL....
+                </p>
+
+                <div class="buttons">
+                    <a href="./images/Resume.pdf.pdf" class="button">
+                        View Resume
+                    </a>
+                    <a href="mailto:solankimohanrao2@gmail.com" class="button white">
+                        Contact Me
+                    </a>
+                </div>
+                <br>
+                <br>
+                <ul class="icons">
+                    <li>
+                        <a href="https://github.com/Mohan1507" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mohan-rao-solanki1507/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="./images/photo.jpg" alt="" id="imge" style="box-shadow: drop-shadow(12px 8px 5px black); border-radius: 25px;">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
